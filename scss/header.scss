@@ -1,0 +1,63 @@
+.header {
+    padding-top: 40px;
+
+    &-navbar {
+        display: flex;
+        align-items: center;
+        max-width: fit-content;
+        border-bottom: 1px solid #EFEEF3;
+        padding-bottom: 40px;
+
+        &-menu {
+            display: flex;
+        }
+
+        &-item {
+            padding-left: 60px;
+
+            a {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                color: #16133d;
+            }
+
+            &:last-child {
+                padding-right: 144px;
+            }
+        }
+
+        &-button {
+            margin-right: 20px;
+            padding: 15px 35px;
+            border: 2px solid #16133D;
+            border-radius: 8px;
+            font-family: "Roboto";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #16133D;
+            transition: all ease .3s;
+            &:hover {
+                color: #fff;
+                background-color: #16133D;
+            }
+
+            &.button-login {
+                background-color: #16133D;
+                color: #fff;
+                &:hover {
+                    color: #16133D;
+                    background-color: #fff;
+                }
+
+            }
+        }
+    }
+
+    &-logo {
+        padding-right: 120px;
+    }
+}

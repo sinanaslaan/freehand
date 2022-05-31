@@ -1,0 +1,41 @@
+.news {
+    padding-bottom: 200px;
+
+    h5 {
+        padding-bottom: 17px;
+    }
+
+    h4 {
+        padding-bottom: 9px;
+    }
+    &-description {
+        color: #7690A8;
+    }
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 85px;
+
+        &-item {
+            display: flex;
+            position: relative;
+            align-items: flex-end;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        &-description {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            position: absolute;
+            padding: 50px;
+        }
+    }
+}

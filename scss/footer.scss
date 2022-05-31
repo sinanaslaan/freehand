@@ -1,0 +1,107 @@
+.footer {
+    background-color: #16133d;
+    padding-top: 90px;
+
+    h3 {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #efeef3;
+    }
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 194px;
+
+        &-menu {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        &-description {
+            color: #efeef3;
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        &-item {
+            padding-bottom: 20px;
+            &:first-child {
+                padding-bottom: 38px;
+            }
+            &:last-child {
+                padding-bottom: 28px;
+            }
+
+            img {
+                padding-bottom: 28px;
+            }
+            &-description {
+                font-family: "Roboto";
+                color: #efeef3;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+
+        &-link {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            color: #efeef3;
+
+            &--mailto {
+                font-family: "Roboto";
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 29px;
+                color: #ffffff;
+            }
+        }
+
+        &-social {
+            padding-top: 30px;
+            a {
+                padding-right: 8px;
+                &:last-child {
+                    padding-right: 0px;
+                }
+            }
+        }
+
+        &-right {
+            display: flex;
+            flex: 3;
+        }
+
+        &-sponsor {
+            display: inline-flex;
+            align-items: center;
+            a {
+                &:first-child {
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+    &-bottom {
+        padding: 80px;
+        &-description {
+            font-family: "Roboto";
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #efeef3;
+        }
+    }
+}

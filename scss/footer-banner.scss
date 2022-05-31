@@ -1,0 +1,41 @@
+.footer-banner {
+    padding-bottom: 200px;
+
+    h1 {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+    }
+
+    &-inner {
+        background-image: url(/img/banner2.jpg);
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &-title {
+        padding-top: 97px;
+        padding-bottom: 19px;
+    }
+
+    &-description {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 48px;
+    }
+    &-button {
+        display: flex;
+        padding-bottom: 84px;
+        justify-content: center;
+        gap: 20px;
+    }
+}

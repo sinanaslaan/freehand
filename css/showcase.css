@@ -1,0 +1,86 @@
+.showcase {
+  padding-top: 50px;
+}
+
+.showcase-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.showcase-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.showcase-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+.showcase-article h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+}
+
+.showcase-article p {
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  color: #183b56;
+}
+
+.showcase .button {
+  margin-right: 20px;
+  color: #007ffc;
+  border-color: #007ffc;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.showcase .button:hover {
+  background-color: #007ffc;
+  color: #ffffff;
+}
+
+.showcase .button:last-child {
+  margin-right: 0px;
+}
+
+.showcase .button.button--show {
+  color: white;
+  background-color: #007ffc;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.showcase .button.button--show:hover {
+  background-color: #ffffff;
+  color: #007ffc;
+}
+
+.showcase-image {
+  position: relative;
+  width: 50%;
+}

@@ -1,0 +1,48 @@
+@import "normalize";
+@import "header";
+@import "showcase";
+@import "button";
+@import "info-card";
+@import "news";
+@import "plan-card";
+@import "footer-banner";
+@import "footer";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", "Roboto";
+}
+
+.container {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690a8;
+}
+h4 {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133d;
+}

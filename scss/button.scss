@@ -1,0 +1,45 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px;
+    border: 2px solid #16133d;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #16133d;
+    transition: all ease .3s;
+    &--radius {
+        border-radius: 50px;
+    }
+    &--small {
+        display: inline-flex;
+        &:hover {
+            color: #ffffff;
+            background-color: #16133d;
+
+        }
+    }
+    &--outline {
+        border-color: #ffffff;
+        background-color: #ffffff;
+        color: #183B56;
+        &:hover {
+            background-color: transparent;
+            color: #16133d;
+        }
+    }
+
+    &--transparent {
+        border-color: #ffffff;
+        color: #ffffff;
+        &:hover {
+            background-color: #16133d;
+            border-color: #16133d;
+        }
+    }
+}
